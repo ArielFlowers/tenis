@@ -17,6 +17,10 @@ function obtenerPuntaje(p1, p2) {
     return "Game P1";
   }
 
+  if (p2 >= 5 && p2 >= p1 + 2) {
+    return "Game P2";
+  }
+
   return `${puntos[p1]},${puntos[p2]}`;
 }
 
