@@ -10,4 +10,5 @@ describe("Puntaje de Tenis", () => {
   it("debería mostrar Deuce cuando ambos tienen 40", () => {
     expect(obtenerPuntaje(3, 3)).toEqual("Deuce");
   });
+  
 });
