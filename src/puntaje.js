@@ -9,6 +9,10 @@ function obtenerPuntaje(p1, p2) {
     return "Advantage P1";
   }
 
+  if (p1 === 3 && p2 === 4) {
+    return "Advantage P2";
+  }
+
   return `${puntos[p1]},${puntos[p2]}`;
 }
 

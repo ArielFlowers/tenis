@@ -13,5 +13,7 @@ describe("Puntaje de Tenis", () => {
   it("debería mostrar Advantage P1 cuando P1 tiene ventaja", () => {
     expect(obtenerPuntaje(4, 3)).toEqual("Advantage P1");
   });
-
+  it("debería mostrar Advantage P2 cuando P2 tiene ventaja", () => {
+    expect(obtenerPuntaje(3, 4)).toEqual("Advantage P2");
+  });
 });
